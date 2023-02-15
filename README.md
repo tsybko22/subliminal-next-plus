@@ -6,11 +6,11 @@ My personal remade of the [Subliminal Next](https://github.com/konradkeska/subli
 
 ## Bracket Pair Colorizer and Error Lens
 
-Build in support for the [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) plugin and native vscode Bracket Pair Colorizer feature.
+Build in support for the [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) plugin and native VSCode Bracket Pair Colorizer feature.
 
 ## Icons settings
 
-I personally prefer the "[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)" icons.
+I personally prefer the [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) icons.
 
 ```json
   "workbench.iconTheme": "material-icon-theme",
@@ -20,4 +20,4 @@ I personally prefer the "[Material Icon Theme](https://marketplace.visualstudio.
   "material-icon-theme.hidesExplorerArrows": true,
 ```
 
-![Preview]()
+![Preview](https://raw.githubusercontent.com/demenskiy/mokka/main/images/preview.png)

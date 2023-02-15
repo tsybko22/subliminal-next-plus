@@ -2,7 +2,12 @@
   "name": "subliminal-next-plus",
   "displayName": "Subliminal Next++",
   "description": "My version of the Subliminal Next theme.",
+  "icon": "images/icon.png",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsybko22/subliminal-next-plus"
+  },
   "engines": {
     "vscode": "^1.54.0"
   },
