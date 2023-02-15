@@ -1,0 +1,21 @@
+{
+  "name": "subliminal-next-plus",
+  "displayName": "Subliminal Next++",
+  "description": "My version of the Subliminal Next theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Subliminal Next++",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Subliminal Next++-color-theme.json"
+      }
+    ]
+  }
+}
