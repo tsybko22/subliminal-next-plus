@@ -20,4 +20,4 @@ I personally prefer the [Material Icon Theme](https://marketplace.visualstudio.c
   "material-icon-theme.hidesExplorerArrows": true,
 ```
 
-![Preview](https://raw.githubusercontent.com/demenskiy/mokka/main/images/preview.png)
+![Preview](https://raw.githubusercontent.com/tsybko22/subliminal-next-plus/main/images/preview.png)
