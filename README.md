@@ -15,7 +15,7 @@ I personally prefer the [Material Icon Theme](https://marketplace.visualstudio.c
 ```json
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.theme": "classic",
-  "material-icon-theme.folders.color": "#6e7c94",
+  "material-icon-theme.folders.color": "#768297",
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.hidesExplorerArrows": true,
 ```

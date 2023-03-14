@@ -88,7 +88,8 @@
     "tab.border": "#232830",
     "tab.activeBorder": "#232830",
     "tab.activeBorderTop": "#6e7c94",
-    "tab.unfocusedActiveBorder": "#768297",
+    "tab.unfocusedActiveBorder": "#232830",
+    "tab.unfocusedActiveBorderTop": "#6e7c94aa",
     "tab.inactiveBackground": "#1f242b",
     "tab.inactiveForeground": "#768297",
     "tab.unfocusedActiveForeground": "#768297",
@@ -424,7 +425,7 @@
     },
     {
       "name": "Logic",
-      "scope": "keyword.operator.logical, keyword.operator.ternary",
+      "scope": "keyword.operator.logical, keyword.operator.ternary, punctuation.accessor.optional",
       "settings": {
         "foreground": "#FFA5C3"
       }
