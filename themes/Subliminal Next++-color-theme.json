@@ -296,7 +296,7 @@
     },
     {
       "name": "Types, Tags",
-      "scope": "entity.name.type",
+      "scope": "entity.name.type, entity.other.inherited-class",
       "settings": {
         "foreground": "#8CD8D8",
         "fontStyle": "underline"
@@ -339,7 +339,7 @@
     },
     {
       "name": "Function Call",
-      "scope": "variable.function, source meta.function-call entity.name.function, meta.class meta.group.braces.curly meta.function-call variable.function, meta.class meta.field.declaration meta.function-call entity.name.function, variable.function.constructor, meta.block meta.var.expr meta.function-call entity.name.function, support.function.console, meta.function-call support.function, meta.property.class variable.other.class, punctuation.definition.entity.css",
+      "scope": "variable.function, source meta.function-call entity.name.function, meta.class meta.group.braces.curly meta.function-call variable.function, meta.class meta.field.declaration meta.function-call entity.name.function, variable.function.constructor, meta.block meta.var.expr meta.function-call entity.name.function, support.function.console, meta.function-call support.function, meta.property.class variable.other.class, punctuation.definition.entity.css, support.function.misc.css, support.function.misc.scss",
       "settings": {
         "foreground": "#FFDFA5"
       }
@@ -360,16 +360,16 @@
       }
     },
     {
-      "name": "Primitive types",
-      "scope": "support.type.primitive",
+      "name": "TS types",
+      "scope": "support.type",
       "settings": {
         "foreground": "#8CD8D8",
         "fontStyle": "italic"
       }
     },
     {
-      "name": "Property json",
-      "scope": "support.type.property-name",
+      "name": "Property json & css",
+      "scope": "support.type.property-name, support.type.vendored.property-name.css, variable.scss, variable.css, variable.argument.css",
       "settings": {
         "foreground": "#d4d4d4"
       }
@@ -383,7 +383,7 @@
     },
     {
       "name": "Punctuation terminator",
-      "scope": "punctuation.terminator, punctuation.definition, punctuation.support, punctuation.separator.dictionary, punctuation.separator.array, meta.brace.round, punctuation.section.embedded, punctuation.accessor, meta.delimiter.comma, punctuation.section.property-list, punctuation.section.function, punctuation.separator.comma, meta.function-call.without-arguments, constant.character.entity, entity.other.attribute-name.pseudo-class, meta.brace.curly, meta.brace.square, punctuation.separator.parameter, punctuation.operation.graphql",
+      "scope": "punctuation.section.media.begin.bracket, punctuation.section.media.end.bracket, punctuation.definition.entity.begin.bracket, punctuation.definition.entity.end.bracket, punctuation.separator.delimiter.scss, punctuation.separator.list.comma.css, punctuation.terminator, punctuation.definition, punctuation.support, punctuation.separator.dictionary, punctuation.separator.array, meta.brace.round, punctuation.section.embedded, punctuation.accessor, meta.delimiter.comma, punctuation.section.property-list, punctuation.section.function, punctuation.separator.comma, meta.function-call.without-arguments, constant.character.entity, entity.other.attribute-name.pseudo-class, meta.brace.curly, meta.brace.square, punctuation.separator.parameter, punctuation.operation.graphql",
       "settings": {
         "foreground": "#FFFFFF55"
       }
@@ -439,7 +439,7 @@
     },
     {
       "name": "String",
-      "scope": "string.quoted, string.interpolated, support.constant.property-value, string.template, punctuation.definition.string",
+      "scope": "meta.attribute-selector.scss, string.quoted, string.interpolated, support.constant.property-value, string.template, punctuation.definition.string",
       "settings": {
         "foreground": "#95E5A6"
       }
