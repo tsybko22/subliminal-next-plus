@@ -371,7 +371,8 @@
       "name": "Property json & css",
       "scope": "support.type.property-name, support.type.vendored.property-name.css, variable.scss, variable.css, variable.argument.css",
       "settings": {
-        "foreground": "#d4d4d4"
+        "foreground": "#d4d4d4",
+		"fontStyle": "normal"
       }
     },
     {
