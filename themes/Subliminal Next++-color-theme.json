@@ -65,6 +65,7 @@
     "activityBar.activeBorder": "#1f242b",
     "activityBarBadge.background": "#505a6c",
     "activityBarBadge.foreground": "#dfe1e8",
+    "activityBarTop.foreground": "#768297",
     "sideBar.background": "#1f242b",
     "sideBar.border": "#232830",
     "sideBarTitle.foreground": "#768297",
@@ -79,7 +80,7 @@
     "minimapGutter.modifiedBackground": "#8CD8D8",
     "minimapGutter.deletedBackground": "#E15A60",
     "editorGroup.border": "#1d2228",
-    "editorGroup.background": "#1d2228",
+    "editorGroup.emptyBackground": "#1d2228",
     "editorGroupHeader.noTabsBackground": "#1f242b",
     "editorGroupHeader.tabsBackground": "#1f242b",
     "editorGroupHeader.tabsBorder": "#1f242b",
@@ -112,8 +113,8 @@
     "editor.findRangeHighlightBackground": "#379adf40",
     "editor.rangeHighlightBackground": "#379adf33",
     "editorWhitespace.foreground": "#838ea166",
-    "editorIndentGuide.background": "#838ea145",
-    "editorIndentGuide.activeBackground": "#838ea159",
+    "editorIndentGuide.background1": "#838ea145",
+    "editorIndentGuide.activeBackground1": "#838ea159",
     "editor.lineHighlightBackground": "#1f242b95",
     "editorLink.activeForeground": "#74b9e9",
     "editorRuler.foreground": "#838ea12e",
@@ -192,9 +193,7 @@
     "debugIcon.breakpointDisabledForeground": "#E15A6080",
     "debugConsoleInputIcon.foreground": "#768297",
     "welcomePage.tileBackground": "#232830",
-    "welcomePage.tileShadow": "#1d2228b3",
     "welcomePage.progress.background": "#1a1f29",
-    "welcomePage.buttonBackground": "#505a6c",
     "walkThrough.embeddedEditorBackground": "#1d2228",
     "gitDecoration.addedResourceForeground": "#95E5A6b3",
     "gitDecoration.conflictingResourceForeground": "#FFA5C3b3",
@@ -277,7 +276,8 @@
       "name": "this, super",
       "scope": "variable.language.this, variable.language.super",
       "settings": {
-        "foreground": "#d4d4d4"
+        "foreground": "#d4d4d4",
+        "fontStyle": "bold"
       }
     },
     {
@@ -372,7 +372,7 @@
       "scope": "support.type.builtin",
       "settings": {
         "foreground": "#8CD8D8",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -380,7 +380,7 @@
       "scope": "support.type.property-name, support.type.vendored.property-name.css, variable.scss, variable.css, variable.argument.css",
       "settings": {
         "foreground": "#d4d4d4",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -392,7 +392,7 @@
     },
     {
       "name": "Punctuation terminator",
-      "scope": "punctuation.section.media.begin.bracket, punctuation.section.media.end.bracket, punctuation.definition.entity.begin.bracket, punctuation.definition.entity.end.bracket, punctuation.separator.delimiter.scss, punctuation.separator.list.comma.css, punctuation.terminator, punctuation.definition, punctuation.support, punctuation.separator.dictionary, punctuation.separator.array, meta.brace.round, punctuation.section.embedded, punctuation.accessor, meta.delimiter.comma, punctuation.section.property-list, punctuation.section.function, punctuation.separator.comma, meta.function-call.without-arguments, constant.character.entity, entity.other.attribute-name.pseudo-class, meta.brace.curly, meta.brace.square, punctuation.separator.parameter, punctuation.operation.graphql",
+      "scope": "punctuation.section.media.begin.bracket, punctuation.section.media.end.bracket, punctuation.definition.entity.begin.bracket, punctuation.definition.entity.end.bracket, punctuation.separator.delimiter.scss, punctuation.separator.list.comma.css, punctuation.terminator, punctuation.definition, punctuation.support, punctuation.separator.dictionary, punctuation.separator.array, meta.brace.round, punctuation.section.embedded, punctuation.accessor, meta.delimiter.comma, punctuation.section.property-list, punctuation.section.function, punctuation.separator.comma, meta.function-call.without-arguments, constant.character.entity, entity.other.attribute-name.pseudo-class, meta.brace.curly, meta.brace.square, punctuation.separator.parameter, punctuation.operation.graphql, punctuation.section.layer.begin.bracket.curly.tailwind, punctuation.section.layer.end.bracket.curly.tailwind",
       "settings": {
         "foreground": "#FFFFFF55"
       }
